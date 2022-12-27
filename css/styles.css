@@ -62,6 +62,11 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* HEADER */
 
 .logo-link {
@@ -176,7 +181,6 @@ body {
 /* features */
 
 .features {
-  padding-top: 120px;
 }
 
 .visually-hidden {
@@ -208,8 +212,6 @@ body {
 /* offer section */
 
 .offer {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .offer-title {
@@ -235,8 +237,6 @@ body {
 
 .team {
   background-color: var(--minory-white-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-title {
@@ -307,7 +307,6 @@ body {
 
 .portfolio {
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -358,7 +357,6 @@ body {
 
 .portfolio-examples-item {
   flex-basis: calc((100% - 48px) / 3);
-  /* border: 1px solid var(--footer-text-color); */
 }
 
 .portfolio-examples-title {
