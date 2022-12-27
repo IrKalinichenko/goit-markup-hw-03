@@ -209,6 +209,7 @@ body {
 
 .offer {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .offer-title {
@@ -224,7 +225,6 @@ body {
 .offer-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .offer-item {
@@ -306,13 +306,14 @@ body {
 /* main */
 
 .portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
 }
 
 .portfolio-filter {
-  padding-top: 96px;
   margin-bottom: 72px;
   display: flex;
   gap: 24px;
@@ -320,8 +321,6 @@ body {
 }
 
 .portfolio-filter-btn {
-  height: 48px;
-  min-width: 69px;
   display: inline-block;
   font-family: inherit;
   font-weight: 500;
@@ -349,7 +348,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-bottom: 120px;
 }
 
 .portfolio-box {
